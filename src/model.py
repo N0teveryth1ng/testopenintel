@@ -38,5 +38,8 @@ fetcher = APIFetcher()
 conflict_data = fetcher.fetch('conflict')
 cyber_data = fetcher.fetch('cyber')
 
+
+
 print(conflict_data.keys(), cyber_data.keys())
 print()
+
